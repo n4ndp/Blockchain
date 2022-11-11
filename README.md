@@ -1,2 +1,2 @@
-# Blockchain-Proyect
+# **Blockchain Proyect**
 Blockchain (Implementation with transactions)
