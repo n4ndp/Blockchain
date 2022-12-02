@@ -1,12 +1,11 @@
 #pragma once
-#ifndef UNIX_H
-#define UNIX_H
+#ifndef UNIXTODATE_H
+#define UNIXTODATE_H
 #include <iostream>
 #include <cstring>
 #include <string>
-#include <sstream>
 
-std::string unixTimeToHumanReadable(const long int& seconds)
+std::string unixTimeToHumanReadable(long int seconds)
 {
     std::string ans = "";
     int daysOfMonth[] = { 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31 };
